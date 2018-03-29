@@ -11,6 +11,7 @@ In this blogpost I'll try to skim on some examples of what I have come up with a
 <blockquote>Please keep in mind: these are my solutions. If you disagree let's discuss this here or on twitter @webdave_de.</blockquote>
 
 Here are the questions and problems:
+
 <ol>
 	<li>Which folder structure should I build to stay scalable?</li>
 	<li>How do I cut modules?</li>
@@ -25,8 +26,6 @@ Here are the questions and problems:
 <h2>Folder structure</h2>
 
 Since Angular CLI stepped in most of the Angular projects are scaffold with it. Hence we often have a well known poject structure.
-
-<img src="https://www.webdave.de/wp-content/uploads/2018/03/architecture_1-150x150.png" alt="" width="150" height="150" class="alignnone size-thumbnail wp-image-446" />
 
 In the project root folder we see some files and three folders: "e2e", "node_modules" and "src"
 We want to focus on the <code>src</code> folder for now. Here our application code is located.
@@ -50,14 +49,18 @@ We also want to have a <code>framework</code> folder and a <code>shared</code> f
 
 That’s the outline of our architecture.
 
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/folder.png" class="alignnone size-thumbnail wp-image-446" width="400" />
+
 Now let's have a look at a very common user interface (UI).
 
 Most of the apps have a navigation, a header and something very often called "container" or "view".
 
-# IMG_2
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/architecture.png" width="400" class="alignnone size-thumbnail wp-image-446" />
+</br>
+<small><i>thx HQLabs for the screenshots</i></small>
 
 Those parts together are known as the <strong>app shell</strong>.
-The app shell is a very important part of your app. It's visible almost everywher  and an important piece of code when you start thinking about Progressive Web Applications (PWAs).
+The app shell is a very important part of your app. It's visible almost everywher and an important piece of code when you start thinking about Progressive Web Applications (PWAs).
 
 So where would we expect the app shell to be located?
 Right: in <code>framework</code> folder because it's a generaly used functionality.
@@ -67,7 +70,9 @@ Right: in <code>framework</code> folder because it's a generaly used functionali
 Next let's talk about the <code>features</code>.
 To get the idea of the features of an app it's always a good strategy to look at the menu/navigation.
 
-# IMG_3
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/features.png" class="alignnone size-thumbnail wp-image-446"  width="400"/>
+</br>
+<small><i>thx HQLabs for the screenshots</i></small>
 
 All this entries are features.
 
@@ -76,62 +81,65 @@ All this entries are features.
 		<li>split your application into features.</li>
 		<li>every feature should have it’s own module.</li>
 	</ul>
-	that’s called <strong>single responsibility</strong> or <strong>seperation of concerns</strong>
+	that’s called <strong> single responsibility principle (SRP)</strong>
 </blockquote>
 
-// Achtung: SRP !== SOC! Am besten sagst du nur "Soc" :)
-
 in fact that means:
+
 <ul>
-	<li><h3>no amme <small>(sorry sheldon)</small></h3></li>
-<li><h3>no asme</h3></li>
-<li><h3>no acme <small>(sorry bugs bunny)</small></h3></li>
-<li><h3>no adme</h3></li>
+	<li><h3>no amme <small>(a module managing everything)</small></h3></li>
+<li><h3>no asme <small>(a service managing everything)</small></h3></li>
+<li><h3>no acme <small>(a component managing everything)</small></h3></li>
+<li><h3>no adme <small>(a directive managing everything)</small></h3></li>
 </ul>
 
-// Was bedeuten diese Abkürzungen?
-
 <h2>FAQ</h2>
-
+<blockquote>
 <i>Q: But if I split everything into modules it is possible to have too many modules?</i>
 
 A: No! The maintainability grows by the number of modules. Split your app into modules and your modules into sub modules
 
-# IMG_4
+</blockquote>
 
 <h2>Type of components</h2>
 
 So what about Components? Components represent the UI stuff of our app. We can break them up into two categories:
 
 container components and presentational (or dumb) components.
+
 <ol>
 <li>Container Components can host other components and logic. They are connected to services to get data maybe from an api and provide this data to their child components</li>
 <li>Dump Components have no dependencies, they only have logic which is directly used for their view. They get all the data they need through the @Input decorators, communicate with their parents through @Output decorators
 and they are reusable.</li>
 </ol>
 
-# IMG_4
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/components.png" class="alignnone size-thumbnail wp-image-446" width="400" />
 
 Just a small explanation of the connection and the data flow here
 
 We have a container component with some logic and it holds some presentational components.
 All the data the presentational components need are passed through the @Input decorators. If they want to talk to their parents they would make use of an @Output decorator. If we use a service for some stuff we only use it in the container component.
 
-# IMG_6
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/dataflow.png" class="alignnone size-thumbnail wp-image-446" width="400" />
 
 To identify these kind of components take a look at the mockups. Sections which can be splitted into smaller parts are container components.
 
-# IMG_7
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/container_component.png" class="alignnone size-thumbnail wp-image-446"  width="400"/>
+</br>
+<small><i>thx HQLabs for the screenshots</i></small>
 
 Those small parts can be presentational components
 
-# IMG_8
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/dump_component.png" class="alignnone size-thumbnail wp-image-446"  width="400"/>
+</br>
+<small><i>thx HQLabs for the screenshots</i></small>
 
 <h2>Reuse code</h2>
 
 Components can be reused but logic can be reused, too. We can relocate logic into services.
 
 Almost all logic in am app should fit to one of the following categories:
+
 <ol>
 <li>View logic</li>
 <li>Reusable logic (the logic we copy ‘n paste in a bunch of components)</li>
@@ -146,24 +154,24 @@ Almost all logic in am app should fit to one of the following categories:
 Maybe your structure is very deep.
 And this means you have looooong imports.
 
-# IMG_9
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/looong_import-e1522321763651.png" class="alignnone size-thumbnail wp-image-446"  width="400" />
 
-That's no problem if your IDE is able to manage the imports automatically but if you move modules to another place, it’s can get hard to refactor and maintain. Yes it is a pain but there is a solution.
+That's no problem if your IDE is able to manage the imports automatically but if you move modules to another place, it can get hard to refactor and maintain. Yes it is a pain but there is a solution.
 
-<code>pathmap</code>. 
+<code>pathmap</code>.
 The pathmap is an awesome typescript feature. You can define a mapping table in your tsconfig.json
 
-# IMG_10
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/pathmap.png" class="alignnone size-thumbnail wp-image-446"  width="400" />
 
 which can maybe change your developer live
 
-# IMG_11
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/pathmap_in_action.png" class="alignnone size-thumbnail wp-image-446"  width="400" />
 
 <h2>Follow the style guide</h2>
 
 that’s the structure of our companies feature
 
-# IMG_12
+<img src="https://www.webdave.de/wp-content/uploads/2018/03/naming-conventions.png" width="400" class="alignnone size-thumbnail wp-image-446" />
 
 The naming conventions is very important.
 
@@ -176,7 +184,21 @@ find meaningful names for your classes, methods and attributes.
 <blockquote>I once was fighting with a project where every method and every file had a variable called tmp!
 that was not helpful at all</blockquote>
 
+You'll find the styleguide <a href="https://angular.io/guide/styleguide" target="_blank">here</a>
 
+<h2>Conclusion</h2>
+Huge apps are easy to maintain, if you follow some rules and use the awesome features of Angular CLI and Typescript. Don't be scrared, it's just Angular ;)
 
+<h2>Special Thanks</h2>
 
+I would like to give special thanks to the awesome people that reviewed this post and gave me pointers:
 
+<ul>
+	<li><a href="https://twitter.com/bobrov1989" target="_blank">Vitalii Bobrov</a></li>
+	<li><a href="https://twitter.com/FabianGosebrink" target="_blank">Fabian Gosebrink</a></li>
+	<li><a href="https://twitter.com/mhartington" target="_blank">Mike Hartington</a></li>
+	<li><a href="https://twitter.com/niklas_wortmann" target="_blank">Jan-Niklas Wortmann</a></li>
+	<li><a href="https://twitter.com/Sureshkumar_Ash" target="_blank">Ashwin Sureshkumar</a></li>
+</ul>
+
+Thanks, guys! It means a lot!
