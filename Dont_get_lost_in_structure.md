@@ -42,8 +42,8 @@ We also want to have a `framework` folder and a `shared` folder.
 
 > They seem to be very similar but if we take a look at the functionalities we can see the differences.
 
-- <strong>shared</strong>: is used at multiple places
-- <strong>framework</strong>: is used generaly
+* <strong>shared</strong>: is used at multiple places
+* <strong>framework</strong>: is used generaly
 
 That’s the outline of our architecture.
 
@@ -74,17 +74,17 @@ All this entries are features.
 
 > very important principle:
 
-- split your application into features.
-- every feature should have it’s own module.
+* split your application into features.
+* every feature should have it’s own module.
 
   that’s called <strong> single responsibility principle (SRP)</strong>
 
 in fact that means:
 
-- <h3>no amme <small>(a module managing everything)</small></h3>
-- <h3>no asme <small>(a service managing everything)</small></h3>
-- <h3>no acme <small>(a component managing everything)</small></h3>
-- <h3>no adme <small>(a directive managing everything)</small></h3>
+* <h3>no amme <small>(a module managing everything)</small></h3>
+* <h3>no asme <small>(a service managing everything)</small></h3>
+* <h3>no acme <small>(a component managing everything)</small></h3>
+* <h3>no adme <small>(a directive managing everything)</small></h3>
 
 #### FAQ
 
@@ -174,9 +174,9 @@ that’s the structure of our companies feature
 
 The naming conventions is very important.
 
-- Modules should be named as `.modules`
-- componnet should be named as `.components`
-- etc
+* Modules should be named as `.modules`
+* componnet should be named as `.components`
+* etc
 
 find meaningful names for your classes, methods and attributes.
 
@@ -193,11 +193,11 @@ Huge apps are easy to maintain, if you follow some rules and use the awesome fea
 
 I would like to give special thanks to the awesome people that reviewed this post and gave me pointers:
 
-- <a href="https://twitter.com/bobrov1989" target="_blank">Vitalii Bobrov</a>
-- <a href="https://twitter.com/FabianGosebrink" target="_blank">Fabian Gosebrink</a>
-- <a href="https://twitter.com/mhartington" target="_blank">Mike Hartington</a>
-- <a href="https://twitter.com/niklas_wortmann" target="_blank">Jan-Niklas Wortmann</a>
-- <a href="https://twitter.com/Sureshkumar_Ash" target="_blank">Ashwin Sureshkumar</a>
+* <a href="https://twitter.com/bobrov1989" target="_blank">Vitalii Bobrov</a>
+* <a href="https://twitter.com/FabianGosebrink" target="_blank">Fabian Gosebrink</a>
+* <a href="https://twitter.com/mhartington" target="_blank">Mike Hartington</a>
+* <a href="https://twitter.com/niklas_wortmann" target="_blank">Jan-Niklas Wortmann</a>
+* <a href="https://twitter.com/Sureshkumar_Ash" target="_blank">Ashwin Sureshkumar</a>
 
 Thanks, guys! It means a lot!
 

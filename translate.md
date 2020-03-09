@@ -74,14 +74,15 @@ param = { value: "world" };
 ```
 
 ```html
-// app.component.html {{ 'HELLO' | translate:param }}
+// app.component.html
+{{ 'HELLO' | translate:param }}
 ```
 
 TranslateDirective
 
 ```html
 // app.component.html
-<h3 translate="HELLO" translate-params="{value: 'world'}"><h3></h3></h3>
+<h3 translate="HELLO" translate-params="{value: 'world'}" ><h3>
 ```
 
 #### pluralization and gernderization with ngx-translate-messageformat-compiler
@@ -266,7 +267,8 @@ en.json
 {
   "greetings": "Hi {gender, select, Male {Mr.} Female {Mrs.} other{dude}}",
   "harish": "Coder!!!!!!",
-  "words": "{count, plural, =0{No} one{A} other{#}} {count, plural, one{word} other{words}}"
+  "words":
+    "{count, plural, =0{No} one{A} other{#}} {count, plural, one{word} other{words}}"
 }
 ```
 
