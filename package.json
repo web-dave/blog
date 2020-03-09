@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepush": "node ./scripts/getfiles.js",
+    "push": "git add -A && git commit -m \"new post\"",
+    "postpush": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-dave/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-dave/blog/issues"
+  },
+  "homepage": "https://github.com/web-dave/blog#readme"
+}
