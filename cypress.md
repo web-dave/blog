@@ -114,6 +114,27 @@ to this:
 
 Preparation done! Thanks to the awesome work of teh CLI Team <3
 
+## Different spec folder
+
+If using different angular projects you can add "spec" to options and set a different path for each project.
+
+```json
+"e2e": {
+  "builder": "@briebug/cypress-schematic:cypress",
+  "options": {
+    "devServerTarget": "cypress-test:serve",
+    "watch": true,
+    "headless": false,
+    "spec": "cypress/integration/project/**"
+  },
+  "configurations": {
+    "production": {
+      "devServerTarget": "cypress-test:serve:production"
+    }
+  }
+}
+```
+
 ## Our first Test
 
 The tests are started as usual (if you have already worked with Protractor)
