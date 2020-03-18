@@ -327,7 +327,7 @@ Here is a list of actions (I find their names very self-explanatory):
 
 ```js
 // example clicking on an element
-cy.get('jQuery CSS selector').click();
+cy.get("jQuery CSS selector").click();
 ```
 
 - .click()
@@ -530,6 +530,7 @@ Or wanna add something?
 
 I would like to give special thanks to the awesome people that reviewed this post and gave me pointers:
 
+- <a href="https://twitter.com/ThRintelen"  target="_blank">Thorsten Rintelen</a>
 - <a href="https://twitter.com/mokkapps"  target="_blank">Michael Hoffmann</a>
 - <a href="https://twitter.com/bahmutov"  target="_blank">Gleb Bahmutov</a>
 - <a href="https://twitter.com/tobmaster"  target="_blank">Tobias Struckmeier</a>
