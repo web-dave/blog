@@ -46,7 +46,7 @@ I can't remember how I started with AngularJS but I can remember the day when I 
 At this time, I had already started doing workshops at my employer at the time and I wrote blog posts on how to do web technologies.
 I also had a tutorial on AngularJS. So, starting an Angular2 tutorial was the next logical step.
 When I published my post about Angular2 I recognized a new follower on Twitter:
-Robin Böhm, Founder of angularjs.de reached out to me to have a chat on some serious topics.
+[Robin Böhm](https://angular.de/), Founder of angularjs.de reached out to me to have a chat on some serious topics.
 I was scared.
 I was expecting some serious argument about Angular posts.
 But he was very nice and asked me to join the community. He also asked me, if I'd interested in becomeing a team member and instructor at angularjs.de.
@@ -55,7 +55,7 @@ This was the beginning of very successful collaboration and we became friends.
 
 ## 2016
 
-In 2016, the first conference organizer reached out to me to have me as a speaker. I was totally scared because of my English skills. Then I found talk by Manfred Steyer on YouTube and his confidence on stage gave me courage on doing this. Later that year, I finally met him in person and thanked him for his silent mentorship.
+In 2016, the first conference organizer reached out to me to have me as a speaker. I was totally scared because of my English skills. Then I found talk by [Manfred Steyer](https://www.softwarearchitekt.at/) on YouTube and his confidence on stage gave me courage on doing this. Later that year, I finally met him in person and thanked him for his silent mentorship.
 We started collaborating and we became friends.
 At this time some Developers from the Angular Community recognized me and encouraged me to send an application to the Google Developer Expert program.
 
