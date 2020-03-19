@@ -32,7 +32,7 @@ So I was deeply impressed by my one-night skills.
 But I learned that only seeing these numbers wasn't particularly helpful.
 It was kind of weird to have to open a MySQL admin tool to run this script.
 
-Again my developer friend helped me: The mentioned something called PHP.
+Again my developer friend helped me: They mentioned something called PHP.
 It took me two nights to build a PHP script and use a chart library to display some data.
 This was my very first web app.
 It grew over the time and I added more information to me. After some weeks, I was wondering, if I can make it more dynamic. At this time, every report required a reload.
