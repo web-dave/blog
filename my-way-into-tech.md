@@ -55,7 +55,7 @@ This was the beginning of very successful collaboration and we became friends.
 
 ## 2016
 
-In 2016 the first Conferences reached out to me to have me as a speaker. I was totally scared because of my English skills. Then I found talk of Manfred Steyer on youtube and his confidence on stage and his pronunciation gave me courage on doing this, later this year, I finally met him in person and thanked him for his silent mentorship.
+In 2016 the first Conferences reached out to me to have me as a speaker. I was totally scared because of my English skills. Then I found talk of Manfred Steyer on youtube and his confidence on stage gave me courage on doing this, later this year, I finally met him in person and thanked him for his silent mentorship.
 We started collaborating and we became friends.
 At this time some Developers from the Angular Community recognized me and encouraged me to send an application to the Google Developer Expert program.
 
