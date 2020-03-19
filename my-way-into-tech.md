@@ -31,7 +31,7 @@ On the next day I came up with an (ugly) SQL script to read some specific data a
 
 So I was deeply impressed by my one-night skills.
 But I learned theát Only seeing these numbers wasn't helpful.
-And It was kind of weird to open an MYSQP admin to run this script.
+And It was kind of weird to open an [phpMyAdmin](https://www.phpmyadmin.net/) to run this script.
 
 Again my Developer friend helped me. He mentioned something called PHP.
 It took me two nights to build a PHP script and use a chart library to display some Data.
