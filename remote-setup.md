@@ -1,4 +1,5 @@
-# Stay safe. Stay at home.
+# My personal remote workshop setup  
+## Stay safe. Stay at home.
 
 During these days we all are told to stay at home.
 So we face new issues to get our work done. I mostly do workshops which took place onside. I have tried to sell remote workshops since september 2019 but no one was interested.
@@ -7,7 +8,7 @@ Now, we have to do almost everything remotely, we have to make sure remote works
 
 Here I want to show you my hardware and software I use.
 
-# My remote setup
+## My personal setup
 
 First of all, this is my setup, most of it I bought more than one year ago to do my AMA sessions and Video Call while traveling, so everything had to be plug and play.
 
