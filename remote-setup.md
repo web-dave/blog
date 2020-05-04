@@ -3,7 +3,7 @@
 During these days we all are told to stay at home.
 So we face new issues to get our work done. I mostly do workshops which took place onside. I have tried to sell remote workshops since september 2019 but no one was interested.
 
-Now, we have to do almost everything remote, we have to make sure, remote workshops work fine.
+Now, we have to do almost everything remotely, we have to make sure remote workshops work fine.
 
 Here I want to show you my hardware and software I use.
 
@@ -27,7 +27,7 @@ I started my AMA session back in 2018 by using the front camera of my Surface Bo
 
 ## Microphone
 
-To find a good mic was a bit harder. My requirements: It must be a USB mic because I want to use it in the hotel room and at home. My first mic I bought was a [Marantz Pod Pack 1](https://www.amazon.de/Marantz-Professional-Pod-Pack-USB-Kondensatormikrofon/dp/B01GHUA3XA) wich was great, when I forgot it at home when I wanted to do a AMA during traveling I bought a [Rode NT-USB](https://www.thomann.de/de/rode_nt_usb.htm) and I love it. I keeped the mounting arm of the maranz and mounted it on my monitor arm, so it is decoupled from my desk and from all the vibrations I produce while typing.
+To find a good mic was a bit harder. My requirements: It must be a USB mic because I want to use it in the hotel room and at home. My first mic I bought was a [Marantz Pod Pack 1](https://www.amazon.de/Marantz-Professional-Pod-Pack-USB-Kondensatormikrofon/dp/B01GHUA3XA) which was great, when I forgot it at home when I wanted to do a AMA during traveling I bought a [Rode NT-USB](https://www.thomann.de/de/rode_nt_usb.htm) and I love it. I keeped the mounting arm of the maranz and mounted it on my monitor arm, so it is decoupled from my desk and from all the vibrations I produce while typing.
 While traveling, I use the Rode with the small tripod the ship mic.
 
 ## Streaming software
