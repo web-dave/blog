@@ -34,7 +34,7 @@ While traveling, I use the Rode with the small tripod the ship mic.
 
 My first motivation was to start doing AMA sessions and Tutorials on Twitch or YouTube. So I started with [OBS](https://obsproject.com/de) which works awesome. For my first workshops I used [Google Hangout](https://hangouts.google.com/) which worked fine. But there are some features missing, like muting/unmuting attendees, so I choose [Zoom](https://zoom.us/) (Most of the missing feature are now availabe on Hangout too). So nothing very special.
 
-My newest gear is a [Elgato SrreamDeck](https://www.elgato.com/de/gaming/stream-deck) to easyly control the streaming software (toggle mic, share, toggle video)
+My newest gear is a [Elgato SrreamDeck](https://www.elgato.com/de/gaming/stream-deck) to easily control the streaming software (toggle mic, share, toggle video)
 
 I'm always looking for optimization so my setup might change over time.
 
