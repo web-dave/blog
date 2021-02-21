@@ -14,8 +14,7 @@ First of all, this is my setup, most of it I bought more than one year ago to do
 
 ## My computer and Monitor
 
-I use a [Surface Book 2](https://www.microsoft.com/de-de/p/surface-book-2/8mcpzjjcc98c) for my all day work and I love it. It has two USB 3.0 ports. In my home office I plug it in to a [Surface Dock](https://www.microsoft.com/de-de/p/surface-dock/8qrh2npz0s0p) to use a second monitor (Benq GL2450) which is mounted on the wall with a mounting arm found on ebay.
-
+I use a [Surface Book 3](https://www.microsoft.com/de-de/p/surface-book-3/8XBW9G3Z71F1) for my all day work and I love it. It has two USB 3.0 ports. In my home office I plug it in to a [Surface Dock 2](https://www.microsoft.com/de-de/p/surface-dock-2/8qd908364sg2) to use a second monitor (Benq GL2450) which is mounted on the wall with a mounting arm found on ebay.
 ## Keyboard and Mouse
 
 I love slim keyboards.
@@ -33,7 +32,9 @@ While traveling, I use the Rode with the small tripod the ship mic.
 
 ## Streaming software
 
-My first motivation was to start doing AMA sessions and Tutorials on Twitch or YouTube. So I started with [OBS](https://obsproject.com/de) which works awesome. For my first workshops I used [Google Hangout](https://hangouts.google.com/) which worked fine. But there are some features missing, like muting/unmuting attendees, so I choose [Zoom](https://zoom.us/). So nothing very special.
+My first motivation was to start doing AMA sessions and Tutorials on Twitch or YouTube. So I started with [OBS](https://obsproject.com/de) which works awesome. For my first workshops I used [Google Hangout](https://hangouts.google.com/) which worked fine. But there are some features missing, like muting/unmuting attendees, so I choose [Zoom](https://zoom.us/) (Most of the missing feature are now availabe on Hangout too). So nothing very special.
+
+My newest gear is a [Elgato SrreamDeck](https://www.elgato.com/de/gaming/stream-deck) to easyly control the streaming software (toggle mic, share, toggle video)
 
 I'm always looking for optimization so my setup might change over time.
 
