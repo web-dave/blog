@@ -18,7 +18,7 @@ The build process was optimized in the CLI. The process has been scaled down fro
 
 ## TypeScript 4.8
 
-Angular 15 relies on Typescript 4.8. which brings some changes and new features. With that comes the breaking change that requires manual intervention.
+Angular 15 relies on Typescript 4.8. which brings some changes and new features. With that comes the breaking change that requires manual intervention (check npm update).
 All changes can be found [here](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-8.html)
 
 ## injectFunction
